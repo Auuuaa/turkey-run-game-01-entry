@@ -1,0 +1,61 @@
+/* Gobble Dash — page chrome around the game canvas. Autumn palette,
+warm browns and oranges, readable at a glance. The game itself is drawn
+on the canvas; this stylesheet only frames it. */
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: #2e1d0e;
+  color: #f4e3c2;
+  font-family: Georgia, 'Times New Roman', serif;
+}
+
+#stage {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 16px;
+}
+
+#game {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 4px solid #7a4a21;
+  border-radius: 14px;
+  background: #f7b267;
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.55);
+  cursor: pointer;
+  touch-action: manipulation;
+}
+
+#help {
+  max-width: 860px;
+  margin: 18px auto 8px;
+  text-align: center;
+}
+
+#help h1 {
+  margin: 0 0 8px;
+  font-size: 28px;
+  color: #ffd23c;
+}
+
+#help p {
+  margin: 6px 0;
+  font-size: 17px;
+  line-height: 1.5;
+}
+
+#help strong {
+  color: #ffd23c;
+}
+
+#help p:last-child {
+  color: #d9c49a;
+  font-size: 15px;
+}
